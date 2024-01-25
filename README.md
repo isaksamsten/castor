@@ -3,7 +3,7 @@
 ![Castor](assets/castor.png)
 
 <p align="center">
-        📖 <a href="">Paper</a>&nbsp&nbsp ｜ &nbsp🤗 <a href="notebook">Notebook</a>&nbsp&nbsp | &nbsp&nbsp<a href="">Results</a> | &nbsp🖊 <a href="code">Code</a>
+        📖 <a href="">Paper</a>&nbsp&nbsp ｜ &nbsp🤗 <a href="notebook">Notebook</a>&nbsp&nbsp | &nbsp🌟<a href="#Results">Results</a>&nbsp&nbsp | &nbsp🖊 <a href="https://github.com/wildboar-foundation/wildboar/blob/c79b77a733369cfdee765f1cb490b6ceafedb4f2/src/wildboar/transform/_cshapelet.pyx#L949">Code</a>
 </p>
 <br>
 
