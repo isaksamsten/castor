@@ -3,7 +3,7 @@
 ![Castor](assets/castor.png)
 
 <p align="center">
-        📖 <a href="">Paper</a>&nbsp&nbsp ｜ &nbsp🤗 <a href="notebook">Notebook</a>&nbsp&nbsp | &nbsp🌟<a href="#Results">Results</a>&nbsp&nbsp | &nbsp🖊 <a href="https://github.com/wildboar-foundation/wildboar/blob/c79b77a733369cfdee765f1cb490b6ceafedb4f2/src/wildboar/transform/_cshapelet.pyx#L949">Code</a>
+        📖 <a href="">Paper</a>&nbsp&nbsp ｜ &nbsp🤗 <a href="./example.ipynb">Notebook</a>&nbsp&nbsp | &nbsp🌟<a href="#Results">Results</a>&nbsp&nbsp | &nbsp🖊 <a href="https://github.com/wildboar-foundation/wildboar/blob/c79b77a733369cfdee765f1cb490b6ceafedb4f2/src/wildboar/transform/_cshapelet.pyx#L949">Code</a>
 </p>
 <br>
 
@@ -12,7 +12,7 @@ Castor is a simple and efficient time series transformation to construct accurat
 You can try Castor today!
 
 ```shell
-$ pip install wildboar==1.2.beta1
+$ pip install wildboar==1.2.beta6
 ```
 
 In a Python REPL:
@@ -115,3 +115,10 @@ Using the classifier is as simple as:
 ![Sharpshooter](assets/sharpshooter.png)
 
 ![Scaling](assets/scaling.png)
+
+The full results are available in the file `results.csv`. The file can be loaded in Pandas using:
+
+```python
+import pandas as pd
+pd.read_csv("results.csv", header=[0,1], index_col=0)
+```
