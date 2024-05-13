@@ -102,7 +102,7 @@ Using the classifier is as simple as:
 
 ```python
 >>> from wildboar.datasets import load_dataset
->>> from wildboar.linear_models import CastorClassifier
+>>> from wildboar.linear_model import CastorClassifier
 >>> X_train, X_test, y_train, y_test = load_dataset("GunPoint", merge_train_test=False)
 >>> t = CastorClassifier(n_jobs=-1)
 >>> t.fit(X_train, y_train).score(X_test, y_test)
